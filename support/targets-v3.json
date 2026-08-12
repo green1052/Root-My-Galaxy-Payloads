@@ -97,11 +97,11 @@
       "models": ["SM-S928N"],
       "kernelVersions": ["6.1.145"],
       "exploit": {
-        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/artifacts/e3q-S928NKSS6DZE1/cve-2026-43499-app.so",
+        "url": "https://raw.githubusercontent.com/green1052/Root-My-Galaxy-Payloads/main/artifacts/e3q-S928NKSS6DZE1/cve-2026-43499-app.so",
         "size": 104128
       },
       "kernelsu": {
-        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-e3q-S928NKSS6DZE1-kdp",
+        "url": "https://raw.githubusercontent.com/green1052/Root-My-Galaxy-Payloads/main/kernelsu/ksud-e3q-S928NKSS6DZE1-kdp",
         "size": 5090384
       }
     },

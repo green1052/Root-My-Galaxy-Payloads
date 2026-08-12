@@ -17,6 +17,7 @@ It intentionally does not contain Android application source code.
 | --- | --- | --- | --- |
 | `galaxy-s25-series-2026-06-07` | Galaxy S25, S25+, S25 Edge, and S25 Ultra regional models | `6.6.98` | Device-tested |
 | `e3q-S928USQS6DZF2` | Galaxy S24 Ultra `SM-S928U` | `6.1.145` | Hardware debugging in progress |
+| `e3q-S928NKSS6DZE1` | Galaxy S24 Ultra `SM-S928N` | `6.1.145` | Device-untested |
 | `e2s-S926BXXUEDZDR` | Galaxy S24+ `SM-S926B` | `6.1.157` | Device-tested |
 | `essi-A566EXXSCCZG6` | Galaxy A56 5G `SM-A566E` | `6.6.102` | Device-tested |
 | `a36xq-A366WVLS3AYG1` | Galaxy A36 5G `SM-A366W` | `6.6.46` | Device-tested |
@@ -70,7 +71,9 @@ versioned artifacts are documented in [`kernelsu/README.md`](kernelsu/README.md)
 The exact S921B DZF2 analysis is recorded separately in
 [`docs/SM-S921B-S921BXXSFDZF2.md`](docs/SM-S921B-S921BXXSFDZF2.md), and the
 S928U/S928U1 DZF2 analysis is in
-[`docs/SM-S928U1-S928U1UES6DZF2.md`](docs/SM-S928U1-S928U1UES6DZF2.md). S921B
+[`docs/SM-S928U1-S928U1UES6DZF2.md`](docs/SM-S928U1-S928U1UES6DZF2.md), and the
+S928N DZE1 record is in
+[`docs/SM-S928N-S928NKSS6DZE1.md`](docs/SM-S928N-S928NKSS6DZE1.md). S921B
 is an Exynos 2400 target and is not a Qualcomm/Snapdragon reference for E3Q.
 The 5.10 A15 analysis is in
 [`docs/SM-A155N-A155NKSS6BYH1.md`](docs/SM-A155N-A155NKSS6BYH1.md).
