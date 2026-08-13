@@ -375,6 +375,12 @@ void slide_pselect_stack_copy(void) {
 #if defined(APP_REQUIRE_FRESH_P0_SESSION) && APP_REQUIRE_FRESH_P0_SESSION
   atomic_store(&slide_pselect_started_ns, pselect_started);
 #endif
+  if (block_fd >= 0 && block_fd != pipefd[0]) {
+    struct itimerspec its = {0};
+    its.it_value.tv_nsec = (long)slide_enter_delay_usec() * 1000L;
+    if (its.it_value.tv_nsec <= 0) its.it_value.tv_nsec = 50000000L;
+    syscall(SYS_timerfd_settime, block_fd, 0, &its, NULL);
+  }
   for (int index = 0; index < slide_syscall_pad; index++) {
     syscall(SYS_gettid);
   }
